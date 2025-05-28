@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coustomer Dashboard</title>
+</head>
+<link rel="stylesheet" href="coustomer_dashboard.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body>
+    <header>
+        <div id="top_header">
+            <div id="logo"></div>
+            <div id="delivery_location">
+                <center>
+                <p id="delivery_location_head"> Deliver to...</p>
+                <i class="fa-solid fa-location-dot" id="location_logo"></i>
+                <input type="text" id="locationID" placeholder="Sangli, Maharashtra">
+                </center>
+            </div>
+            <div id="searchbar">
+                <center>
+                    <div class="search-wrapper">
+                        <select id="search-type">
+                            <option value="defaultsearch">Search MEDItrust.in</option>
+                            <option value="med1">Penicilin</option>
+                            <option value="med2">Amoxicilin</option>
+                            <option value="med3">Pan 40</option>
+                        </select>
+                        <div id="search_icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </center>
+            </div>
+            <div id="language">
+                <div id="flag">
+                    
+                </div>
+                <div id="country_name">
+                    <center>
+                        <select id="country-type">
+                        <option value="cou1">IN</option>
+                        <option value="cou2">UK</option>
+                        <option value="cou3">AUS</option>
+                    </select>
+                    </center>
+                </div>
+            </div>
+            <div id="account_center">
+                <p id="accounts">Hello, Sign In</p>
+                <select id="accounts-type">
+                        <option value="cou1">Accounts& Lists</option>
+                        <option value="cou2">Account 1</option>
+                        <option value="cou3">Account 2</option>
+                </select>
+            </div>
+            <div id="returnsnorders">
+                <div id="textoforder">
+                    <p>Returns</p>
+                    <p id="orders">& Orders</p>
+                </div>
+            </div>
+            <div id="addtocart">
+                <div id="cartlogo">
+                    <i class="fa-solid fa-cart-plus"></i>
+                </div>
+                <div id="carttext">
+                    <p> Cart</p>
+                    <p id="cart_idx">..0..</p>
+                </div>
+            </div>
+        </div>
+                <div id="header2">
+                    <div class="med_subcat">Analgesics</div>
+                    <div class="med_subcat">Antibiotics</div>
+                    <div class="med_subcat">Antivirals</div>
+                    <div class="med_subcat">Antifungals</div>
+                    <div class="med_subcat">Antipyretics</div>
+                    <div class="med_subcat">Antihistamines</div>
+                    <div class="med_subcat">Antidepressants</div>
+                    <div class="med_subcat">Antipsychotics</div>
+                    <div class="med_subcat">Antihypertensives</div>
+                    <div class="med_subcat">Diuretics</div>
+                    <div class="med_subcat">Antidiabetics</div>
+                    <div class="med_subcat">Bronchodilators</div>
+                    <div class="med_subcat">Vaccines</div>
+                </div>
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="Gemini_Generated_Image_pqudfmpqudfmpqud.png" alt="Image 1">
+                    <img src="Gemini_Generated_Image_2.png" alt="Image 2">
+                    <img src="Gemini_Generated_Image_3.png" alt="Image 3">
+                    <img src="Gemini_Generated_Image_4.png" alt="Image 4">
+                </div>
+                <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+                <button class="arrow right" onclick="nextSlide()">&#10095;</button>
+            </div>
+                <div class="container_sub">
+                <div class="sub_divs">
+                    <p >Continue Shopping...</p>
+                    <img id="continue_shop" src="Amox.jpg" alt="Image 1">
+                </div>
+                <div class="sub_divs">
+                    <p>Medicines 70% off</p>
+                    <img id="offer_med" src="medicines-offers.jpg">
+                </div>
+                <div class="sub_divs">
+                    <p>Orthotic Devices & Mobility Aids</p>
+                    <img id="hand_supp" src="hand_supp.jpeg">
+                </div>
+                <div class="sub_divs">
+                    <div id="sign_in_suggest">
+                        <p>Sign in for better Experiance</p>
+                        <button id="button_signin">Sign in Securely</button>
+                    </div>
+                </div>
+                <div class="sub_divs">
+                    <p>Personal Care Products</p>
+                    <img id="care" src="PCP.jpeg">
+                </div>
+                <div class="sub_divs">
+                    <p>Dietary Supplements</p>
+                    <img id="dietry_supp" src="dietry_supp.jpeg">
+
+                </div>
+                <div class="sub_divs">
+                    <p>Routine Vaccination | Scheduled Immunization</p>
+                    <img id="vaccination" src="vaccination.jpeg">
+                </div>
+                <div class="sub_divs">
+                    <p> Summer Hydration</p>
+                    <img id="hydration" src="hydration.jpeg">
+                </div>
+            </div>
+
+    </header>
+</body>
+<script src="coustomer_dasboard.js"></script>
+</html>

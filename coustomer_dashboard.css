@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #B0E0E6;
+}
+
+#top_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 120px;
+    width: 180px;
+    background-color: black;
+    background-color: #ffffff;
+    background-image: url("logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    border: 0.8px solid black;
+}
+
+#delivery_location{
+    height: 120px;
+    width: 200px;
+    border: 0.8px solid rgb(0, 0, 0);
+    background-color: rgb(202, 243, 202);
+
+}
+
+#delivery_location_head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#location_logo{
+    font-size: 50px;
+}
+
+#locationID{
+    background-color: rgb(232, 255, 232);
+    border: 0.5px ;
+}
+
+#searchbar{
+    height: 120px;
+    width: 465px;
+    border: 0.8px solid rgb(0, 0, 0);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 243, 202);
+}
+
+#search-type{
+    height: 50px;
+    width: 380px;
+    border-radius: 10px ;
+    background-color: rgb(232, 255, 232);
+}
+
+#search_icon{
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px 10px;
+  background-color: rgb(202, 243, 202);
+}
+
+#language{
+    height: 120px;
+    width: 200px;
+    border: 0.8px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 243, 202);
+}
+
+#flag{
+    height: 50px;
+    width: 50px;
+    border: 0.8px solid black;
+    font-size: 45px;
+    background-color: #ffffff;
+    background-image: url("india\ flag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    border-radius: 10px;
+    
+}
+
+#country-type{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(232, 255, 232);
+
+}
+
+#account_center{
+    height: 120px;
+    width: 200px;
+    border: 0.8px solid black;
+    background-color: rgb(202, 243, 202);
+}
+
+#accounts-type{
+    height: 50px;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(232, 255, 232);
+
+}
+
+#accounts{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#returnsnorders{
+    height: 120px;
+    width: 120px;
+    border: 0.8px solid black;
+    text-align: center;
+    background-color: rgb(202, 243, 202);
+}
+
+#orders{
+    font-size: 25px;
+    font-weight: 20px;
+}
+#textoforder{
+    margin-top: 30px;
+}
+
+#addtocart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid black;
+    height: 120px;
+    width: 160px;
+    background-color: rgb(202, 243, 202);
+}
+
+#cartlogo{
+    font-size: 40px;
+
+}
+
+#carttext{
+    font-size: 25px;
+}
+
+#defaultsearch{
+    font-size: 45px;
+}
+
+#logo:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#searchbar:hover{
+    border: 3px solid black;
+    background-color: rgb(146, 228, 186);
+}
+
+.search-wrapper:hover{
+    background-color: rgb(146, 228, 186);
+}
+
+#delivery_location:hover{
+    border: 2.3px solid black;
+    cursor: pointer;
+    background-color: rgb(146, 228, 186);
+}
+
+#search_icon:hover{
+    border: 2.3px solid black;
+    cursor: pointer;
+}
+
+#language:hover{
+   border: 2.3px solid black;
+    cursor: pointer;
+    background-color: rgb(146, 228, 186);
+}
+
+#account_center:hover{
+    border: 2.3px solid black;
+    cursor: pointer;
+    background-color: rgb(146, 228, 186);
+}
+
+#returnsnorders:hover{
+    border: 2.3px solid black;
+    cursor: pointer;
+    background-color: rgb(146, 228, 186);
+}
+
+#addtocart:hover{
+    border: 2.3px solid black;
+    cursor: pointer;
+    background-color: rgb(146, 228, 186);
+}
+
+#header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(203, 250, 250);
+
+}
+
+.med_subcat{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(203, 250, 250);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.med_subcat:hover{
+    border: 0.7px solid black;
+    cursor: pointer;;
+    background-color: rgb(207, 243, 231);
+}
+
+.carousel {
+      position: relative;
+      width: 600px;
+      height: 600px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-top: 20px;
+    }
+
+    .carousel-images {
+      display: flex;
+      transition: transform 1.5s ease-in-out;
+    }
+
+    .carousel-images img {
+      width: 600px;
+      height: 600px;
+      object-fit: cover;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      z-index: 1;
+    }
+
+    .left {
+      left: 10px;
+    }
+
+    .right {
+      right: 10px;
+    }
+
+.container_sub {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+  gap: 10px; /* space between items */
+  width: 99vw; /* full viewport width */
+  padding: 10px; /* optional padding */
+  box-sizing: border-box; /* ensure padding doesn’t affect layout */
+}
+
+.sub_divs {
+  background-color: #ffffff; /* example color */
+  height: 420px; /* or any height you prefer */
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 50px;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#sign_in_suggest{
+    margin-top: 80px;
+}
+
+#button_signin{
+    margin-top: 60px;
+    height: 50px;
+    width: 140px;
+    border-radius: 20px;
+    border: 2.5px solid black;
+    background-color: rgb(248, 248, 118);
+}
+
+#continue_shop{
+    height: 340px;
+    width: 340px;
+}
+
+#offer_med{
+    margin-top: 90px;
+    height: 200px;
+    width: 340px;
+}
+
+#hand_supp{
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+#care{
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+#dietry_supp{
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+#vaccination{
+    margin-top: 100px;
+    height: 120px;
+    width: 360px;
+}
+
+#hydration{
+    margin-top: 60px;
+    height: 300px;
+    width: 300px;
+}
